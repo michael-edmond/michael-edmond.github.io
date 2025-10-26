@@ -1,0 +1,12 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#3b82f6;--muted:#94a3b8;color:#e6eef8}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#07102a);color:var(--color,#e6eef8);line-height:1.5}
+.container{max-width:900px;margin:28px auto;padding:20px;background:rgba(255,255,255,0.02);border-radius:12px}
+.hero{padding:40px 20px;text-align:center}
+.hero h1{margin:0;font-size:2rem}
+.tag{margin:6px 0 12px;color:var(--muted)}
+.contact a{color:var(--accent);text-decoration:none}
+h2{border-bottom:1px solid rgba(255,255,255,0.03);padding-bottom:8px}
+.project{margin:14px 0;padding:10px;border-radius:8px;background:rgba(255,255,255,0.01)}
+footer{text-align:center;padding:20px;color:var(--muted);font-size:0.9rem}
+@media (max-width:600px){.container{margin:12px;padding:16px}}

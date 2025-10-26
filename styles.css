@@ -1,8 +1,10 @@
 body {
-  background: rgba(0, 0, 0, 0.92) url('background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  line-height: 1.6;
-  padding: 20px;
+  background:   linear-gradient(rgba(139, 0, 0, 0.45), rgba(0, 0, 0, 0.85)),
+  url('background.jpg') no-repeat center center fixed;
+background-size: cover;
+line-height: 1.6;
+padding: 20px;
+color: #e6e6e6; /* Light gray text */
 }
 
 .profile-pic img {

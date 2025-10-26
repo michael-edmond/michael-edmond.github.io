@@ -1,10 +1,33 @@
 body {
-  background:   linear-gradient(rgba(139, 0, 0, 0.45), rgba(0, 0, 0, 0.85)),
-  url('background.jpg') no-repeat center center fixed;
-background-size: cover;
-line-height: 1.6;
-padding: 20px;
-color: #e6e6e6; /* Light gray text */
+  background: linear-gradient(rgba(139, 0, 0, 0.45), rgba(0, 0, 0, 0.85)),
+              url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Courier New', monospace;
+  color: #e6e6e6;
+  line-height: 1.6;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Main container layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Left and right column styling */
+.left-column, .right-column {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .profile-pic img {
@@ -13,6 +36,22 @@ color: #e6e6e6; /* Light gray text */
   border-radius: 50%;
   border: 2px solid #00ffcc;
   margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+h2 {
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #ff004f;
 }
 
 .cert, .project {
@@ -24,9 +63,11 @@ color: #e6e6e6; /* Light gray text */
   margin: 5px 0;
 }
 
+/* Contact Section */
 #contact ul {
   list-style: none;
   margin-top: 10px;
+  padding: 0;
 }
 
 #contact li {
@@ -36,8 +77,24 @@ color: #e6e6e6; /* Light gray text */
 #contact a {
   color: #00ffcc;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #contact a:hover {
   color: #ff004f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
 }

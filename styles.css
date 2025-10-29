@@ -30,6 +30,17 @@ header {
   margin-bottom: 25px;
 }
 
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.3em;
+  color: #00ffcc;
+  text-shadow: 0 0 8px #00ffcc;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+
+
 .profile-pic img {
   width: 120px;
   height: 120px;

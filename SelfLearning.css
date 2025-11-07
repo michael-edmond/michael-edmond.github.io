@@ -1,4 +1,4 @@
-
+/*
 body {
   background-color: #ffffff;
   color: #1a1a1a;
@@ -7,18 +7,18 @@ body {
   margin: 0;
   padding: 0;
 }
-
+*/
 
 
 body {
   background:  linear-gradient(rgba(139, 0, 0, 0.45), rgba(0, 0, 0, 0.85)),
   url("b2.jpg") no-repeat center center fixed;
   background-size: cover;
-  color: #1a1a1a;
-  font-family: 'JetBrains Mono', monospace;
+  color: #e6e6e6;;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 /*
 body::before {

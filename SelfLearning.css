@@ -99,3 +99,36 @@ footer {
   color: #333;
   font-size: 0.9em;
 }
+
+/* 📱 Responsive adjustments for mobile */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* slightly smaller text base */
+    line-height: 1.7;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.3em; /* prevents overflow */
+    text-align: center;
+  }
+
+  section {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  p {
+    color: #e0e0e0; /* lighter text for contrast */
+  }
+
+  .cert, .project {
+    border-left: none;
+    border-top: 2px solid #00bcd4;
+    padding-top: 10px;
+  }
+
+  a.btn, a {
+    display: inline-block;
+    font-size: 0.95em;
+  }
+}

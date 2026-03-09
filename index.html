@@ -90,33 +90,58 @@
     <!-- Right column -->
     <main class="right-column">
       <section id="projects">
-        <h2>Projects</h2>
-
+        <h2>Security-Aware Automation Projects</h2>
+	   <p> These projects demonstrate the design and deployment of secure, automated systems for real-world school operations,
+		 emphasizing <strong> access control, auditability, and operational integrity.</strong>
+	   </p>
         <div class="project">
-          <h3>Cyberhawk intelligence</h3>
+          <h3>ClassTrack- Secure School Attendance Automation  System</h3>
           <p>
-		Cyberhawk Intelligence is a threat intelligence system that utilizes the VirusTotal API for various functionalities, 
-		including file scanning, URL scanning, and domain search.
-	        It features role-based login for regular users and admins.
-	        Additional functionalities include command execution, CWE fetching, report writing, and submission.
-	        User management is handled through MySQL storage, while reports are stored and submitted via Firestore.
+
+		Designed and deployed a cloud-based attendance management system currently used in a junior school. The platform enables authorized teachers to securely record class attendance while administrators manage access and attendance schedules. 
+		Built with Google Apps Script and Google Sheets, the system automates attendance recording and provides centralized monitoring.
+		
+		<ul>
+		  <li> <strong><u>Security and Risk Mitigation</strong></u>
+    		     <ul>
+      			<li>Controlled access ensures only authorized staff can submit attendance</li>
+      			<li>Tamper-evident logging prevents manipulation of records</li>
+                        <li>Audit-ready centralized data for administrators</li>
+
+                   </li>
+                </ul>
+
+	       <strong> Technologies: Google Apps Script, Google Sheets, Cloud Automation</strong><br>
+	       <strong> Status: Live System (Currently in Use)</strong>
             
           </p>
-          <a href="https://raw.github.com/michael-edmond/Myprojects/main/CYBER HAWK INTELLIGENCE.pdf" target="_blank" rel="noopener noreferrer"  >View Project</a>
+          <a href="ProjectDocumentations/classtrack.html" target="_blank" rel="noopener noreferrer"  >Documentation</a>
         </div>
-<!--
+
         <div class="project">
-          <h3>Practical lab documentations</h3>
+          <h3>ScanSISO- QR-Based Staff Authentication & Attendance System</h3>
           <p>
-            A collection of detailed hands-on lab documentations covering diverse areas of cybersecurity and digital forensics. 
-	    These include Cryptography, Ethical Hacking, Mobile Forensics, Wireless Hacking, and Tails OS installation and configuration.
-            Each lab demonstrates my practical understanding of core security concepts, investigative techniques, and system hardening procedures. 
-	    The documentation reflects a strong focus on applied learning, structured analysis, and real-world problem-solving in the 
-	    field of information security
-            .
+		A QR-based staff sign-in/sign-out system replacing manual attendance books. Teachers scan a unique QR code to log arrival and departure, with instant confirmation and administrative oversight.
+                Admins can define time-bound access windows to ensure attendance integrity.
+            
+	       <ul>
+                  <li> <strong><u>Security and Risk Mitigation</strong></u>
+                     <ul>
+                        <li>Time-restricted access prevents fraudulent check-ins/check-outs</li>
+                        <li>Unique QR codes prevent token reuse and unauthorized access.</li>
+                        <li>Centralized logging provides tamper-evident staff attendance records.</li>
+
+                   </li>
+                </ul>
+
+               <strong> Technologies: Google Apps Script, Google Sheets, QR code integration</strong><br>
+               <strong> Status: Live System (Currently in Use)</strong>
+
+
+            
           </p>
-          <a href="https://github.com/michael-edmond/web-security-analyzer" target="_blank">View on GitHub</a>
-        </div> -->
+          <a href="ProjectDocumentations/ScanSISO.html" target="_blank">Documentation</a>
+        </div> 
       </section>
 
         </section>
@@ -193,7 +218,7 @@
 
   <footer>
     <p><i><b>"Hacking is all about choosing the right hat.I CHOSE WHITE"</b></i></p>	
-    <p>© 2025 Michael Edmond | Built with passion and drive for technology</p>
+    <p>© 2026 Michael Edmond | Built with passion and drive for technology</p>
   </footer>
 </body>
 </html>

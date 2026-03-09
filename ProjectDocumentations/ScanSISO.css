@@ -1,0 +1,130 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Overlay */
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    z-index: -1;
+}
+
+/* Container */
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(20,20,20,0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00CED1;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1E90FF;
+    border-bottom: 2px solid #00CED1;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #00CED1;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Lists */
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Code */
+
+code {
+    background: #8B0000;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+}
+
+/* Links */
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #00CED1;
+    text-decoration: underline;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: 2px solid #00CED1;
+    border-radius: 6px;
+    color: #00CED1;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #00CED1;
+    color: #000;
+}
+
+/* Section spacing */
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Horizontal line */
+
+hr {
+    border: none;
+    border-top: 2px solid #1E90FF;
+    margin: 40px 0;
+}
